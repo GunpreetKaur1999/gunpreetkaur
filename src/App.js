@@ -6,6 +6,7 @@ import Portfolio from './pages/Portfolio/Portfolio'
 import Profile from './components/Profile/Profile'
 import Resume from './pages/Resume/Resume'
 import Footer from './components/Footer/Footer'
+import{BrowserRouter as Router,Switch,Route} from "react-router-dom"
 
 //CSS required
 import './App.css';
@@ -29,8 +30,16 @@ function App() {
         
         <Grid item xs={12} sm={12} md={8} lg={9} style={{background : "red"}}>
           <Header />
-          <Portfolio />
-          <Resume />
+          <Router>
+            <Switch>
+            <Route path="/portfolio">
+              <Portfolio />
+            </Route>
+            <Route path="/">
+              <Resume />
+            </Route>
+            </Switch>
+          </Router>
           <Footer />
         </Grid>
         
