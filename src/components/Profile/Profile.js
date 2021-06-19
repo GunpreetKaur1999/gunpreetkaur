@@ -5,10 +5,7 @@ import "./Profile.css";
 import CustomTimeline, { CustomTimelineSeperator } from "../Timeline/Timeline";
 import resumeData from "../../utils/resumeData";
 import PersonPinCircleRoundedIcon from "@material-ui/icons/PersonPinCircleRounded";
-import TimelineItem from "@material-ui/lab/TimelineItem";
-import TimelineContent from "@material-ui/lab/TimelineContent";
 import CustomTimelineItem from "../Timeline/TimelineItem";
-import { keys } from "@material-ui/core/styles/createBreakpoints";
 import CustomButton from "../Button/Button"
 import GetAppIcon from '@material-ui/icons/GetApp';
 

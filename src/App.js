@@ -7,6 +7,9 @@ import Profile from "./components/Profile/Profile";
 import Resume from "./pages/Resume/Resume";
 import Footer from "./components/Footer/Footer";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Skills from "./pages/Resume/Skills";
+import Contact from "./pages/Resume/Contact";
+import Interests from "./pages/Resume/Interests";
 
 //CSS required
 import "./App.css";
@@ -41,6 +44,15 @@ function App() {
             <Switch>
                 <Route path="/projects">
                   <Projects />
+                </Route>
+                <Route path="/skills">
+                  <Skills />
+                </Route>
+                <Route path="/interests">
+                  <Interests />
+                </Route>
+                <Route path="/contact">
+                  <Contact />
                 </Route>
                 <Route path="/">
                   <Resume />

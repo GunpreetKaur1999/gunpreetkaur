@@ -9,6 +9,7 @@ import TelegramIcon from '@material-ui/icons/Telegram';
 import "./Header.css"
 
 
+
 const Header = (props) => {
     const pathName = props?.location?.pathname;
   return (
@@ -27,10 +28,14 @@ const Header = (props) => {
                 {/* We are using active nav link */}
                 <Nav.Link as={NavLink} to="/" className={pathName == "/" ? "header_link_active" : "header_link"}>Resume</Nav.Link>
             
+                <Nav.Link as={NavLink} to="/skills" className={pathName == "/skills" ? "header_link_active" : "header_link"}>Skills</Nav.Link>
+                <Nav.Link as={NavLink} to="/interests" className={pathName == "/interests" ? "header_link_active" : "header_link"}>Interests</Nav.Link>
+
             {/* Portfolio */}
            
                 {/* We are using active nav link */}
             <Nav.Link as={NavLink} to="/projects" className={pathName == "/projects" ? "header_link_active" : "header_link"}>Projects</Nav.Link>
+            <Nav.Link as={NavLink} to="/contact" className={pathName == "/contact" ? "header_link_active" : "header_link"}>Contact</Nav.Link>
             </Nav>
 
             <div className='header_right'>

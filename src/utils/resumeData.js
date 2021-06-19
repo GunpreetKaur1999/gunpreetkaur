@@ -6,7 +6,7 @@ import TwitterIcon from "@material-ui/icons/Twitter";
 import attendance from '../assets/images/attendance.jpg';
 
 
-export default {
+var resumeData={
   name: "GUNPREET KAUR",
   title: "To be Engineer...",
   address: "A-303 Commanders Glory Apartments, Singapura, Bangalore-560097",
@@ -107,6 +107,25 @@ export default {
     },
   ],
 
+  interests: [
+    {
+      title:'front',
+      description:['React-Js','javascript','Material-ui'],
+    },
+    {
+      title:'front2',
+      description:['React-Js','javascript','Material-ui'],
+    },    
+    {
+      title:'front3',
+      description:['React-Js','javascript','Material-ui'],
+    },
+    {
+      title:'front4',
+      description:['React-Js','javascript','Material-ui'],
+    },
+  ],
+
   projects:[
     {
       image:attendance,
@@ -135,3 +154,5 @@ export default {
   
 
 };
+
+export default resumeData;
