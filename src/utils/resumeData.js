@@ -59,7 +59,7 @@ var resumeData={
     },
   },
 
-  about:"I'm a Computer Science Engineering Student who loves to solves problems. I seek opportunities to work in an environment that challenges me everday so that I consistently put in extra efforts to make a better version of myself.I'm a good public speaker and a good communicator as well,I'm a National Level Declamation Winner as well.I love giving Presentations.To the best of my knowledge I'm quite determined,optimistic,reliable,pragmatic and a punctual person.",
+  about:"I'm a Computer Science Engineering Student who loves to solve problems. I seek opportunities to work in an environment that challenges me everday so that I consistently put in extra efforts to make a better version of myself.I'm a good public speaker and a good communicator as well,I'm a National Level Declamation Winner as well.I love giving Presentations.To the best of my knowledge I'm quite determined,optimistic,reliable,pragmatic and a punctual person.",
   education_history: [
     { title: "Sir M Visvesvaraya Institute of Technology", 
     date: "2018-present", 
@@ -67,7 +67,7 @@ var resumeData={
     },
     { title: "Student  Attendee at IGNITE+",
     date: "2021-present", 
-    description: "IGNITE+ is a training program for Woman Engineers, I was a part of it."
+    description: "IGNITE+ is a training program for Woman Engineers organised by Target, I was a part of it."
    },
     { title: "Airforce School Hebbal,Bangalore", 
      date: "2015-2017", 
