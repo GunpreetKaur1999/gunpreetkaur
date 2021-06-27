@@ -7,6 +7,7 @@ import resumeData from "../../utils/resumeData";
 import PersonPinCircleRoundedIcon from "@material-ui/icons/PersonPinCircleRounded";
 import CustomTimelineItem from "../Timeline/TimelineItem";
 import CustomButton from "../Button/Button"
+import TelegramIcon from '@material-ui/icons/Telegram';
 import GetAppIcon from '@material-ui/icons/GetApp';
 
 class Profile extends Component {
@@ -34,7 +35,10 @@ class Profile extends Component {
           </CustomTimeline>
           
           <div className="button_container">
-          <CustomButton text="Download Cv" icon={<GetAppIcon/>}/>
+          {/* <CustomButton text="Download Cv" icon={<GetAppIcon/>}/> */}
+          <a href="https://www.linkedin.com/in/gunpreet-kaur-847b781b4/" className="header_button" target="_blank">
+                <CustomButton  text={'Hire Me'} icon={<TelegramIcon />} />
+                </a>
           </div>
         </div>
       </div>

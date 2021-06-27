@@ -4,6 +4,8 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import attendance from '../assets/images/attendance.jpg';
+import dictionary from '../assets/images/dictionary.png';
+import Portfolio from '../assets/images/Portfolio.png';
 
 
 var resumeData={
@@ -63,6 +65,10 @@ var resumeData={
     date: "2018-present", 
     description: "A computer-science engineering student."
     },
+    { title: "Student  Attendee at IGNITE+",
+    date: "2021-present", 
+    description: "IGNITE+ is a training program for Woman Engineers, I was a part of it."
+   },
     { title: "Airforce School Hebbal,Bangalore", 
      date: "2015-2017", 
      description: "I completed my 12th from Airforce School Hebbal.\nMy subjects were Physics,Chemistry,Maths and Biology(PCMB).Aggregate Percentage-90% ",
@@ -77,15 +83,12 @@ var resumeData={
    },
   ],
   accomplishments: [
-    { title: "STUDENT ATTENDEE AT IGNITE+",
-    date: "2021", 
-    description: "IGNITE+ is a training program for Woman Engineers, I was a part of it."
-   },
+
     { title: "NATIONAL LEVEL DECLAMATION CONTEST, WINNER",
     date: "2016", 
     description: "A declamation contest was held by AFWWA at National Level in Delhi, Subroto Park, I bagged 1st prize in that declamation contest."
    },
-   { title: "STATE LEVEL DECLAMATION CONTEST, WINNER",
+   { title: "STATE LEVEL DECLAMATION CONTEST, WINNER, TWICE",
    date: "2016 and 2017", 
    description: "A declamation contest was held by AFWWA at State Level in Bangalore, I bagged 1st position in that declamation contest."
   },
@@ -93,18 +96,11 @@ var resumeData={
     date: "2nd Year of Engineering", 
     description: "Elocution competiton was held in Dharwad organised by the VTU, I bagged 3rd positon amongst the students of all VTU colleges who participated in Elocution Competition",
     },
-    { title: "VERVE, DECLAMATION, WINNER", 
-    date: "2nd Year of Engineering", 
-    description: "A declamation competiton was held in SMVIT on Verve. I bagged 1st place",
-   },
-    { title: "Women's Day, PUBLIC-SPEAKING, WINNER", 
+    { title: "WOMEN's DAY, PUBLIC-SPEAKING, WINNER", 
      date: "2nd Year of Engineering", 
      description: "A speech competiton was held in SMVIT on Women's day.",
     },
-    { title: "Speech Competiton, INDUCTION PROGRAM, WINNER",
-    date: "1st Year of Engineering", 
-    description: "A speech competiton was held during the Induction program, I bagged 1st position."
-    },
+
 
   ],
   skills: [
@@ -113,23 +109,30 @@ var resumeData={
       description:['C','C++','Java','Python'],
     },
     {
-      title:'Front End',
-      description:['HTML','CSS','Bootstrap','React','Material-UI'],
-    },
+      title:'Undergraduate',
+      description:[
+        'DS and Algo',
+        'DBMS',
+        'Software Engg',
+        'OOPS Concepts',
+        'Operating Systems'
+        ],
+    }, 
     {
-      title:'Backend',
-      description:['DJango','Spring Boot'],
-    },    
+      title:'Web Development',
+      description:['HTML','CSS','Bootstrap','React','Material-UI','DJango'],
+    },
+   
 
     {
       title:'Interpersonal Skills',
-      description:['Orator','Determination','Punctuality'],
+      description:['Public-Speaking','Determination','Punctuality','Optimistic','Pragmatic'],
     },
   ],
 
   interests: [
     {
-      title:'Interested in',
+      title:'Interested In',
       description:['Problem Solving'],
     },
     {
@@ -149,22 +152,22 @@ var resumeData={
   projects:[
     {
       image:attendance,
-      title:"Attendance Web App",
-      description:"This is a Web-app, which is based on a real life problem that we faced,\n It serves as a link to students and out of the entire class gives the list of absentees and stores them in Database.It uses Django and Bootstrap",
+      title:"ATTENDANCE WEB APP",
+      description:"We created an attendance app for Covid-19 after seeing the problems in our Mother's School.This app lets you track, and report attendance online with ease. It is completely web based so you can access the info anywhere if you are connected to the internet.Tech-Stack Used: Django,HTML,CSS,Bootstrap.",
       links:[
       {link: 'https://www.google.com'}]
     },
 
-     { image:attendance,
-      title:"Article reading Aider",
-      description:"This is also based on a real life that we faced,The Hindu editorials do consume a lot of time, So, this aider gives meanings of word on a single click and displays them on screen. This web app uses HTML,CSS,JavaScript and JQuery",
+     { image:dictionary,
+      title:"READING AIDER",
+      description:"You can quickly look up the definitions of words while reading articles or paragraphs in our Web app.The Hindu editorials do consume a lot of time, So, this aider gives meanings of word on a single click and displays them on screen. Tech-Stack used HTML,CSS,JavaScript,JQuery and Meriam-Webstar API",
       links:[
       {link: 'https://www.google.com'}]
       },
 
-      {image:attendance,
-      title:"Portfolio using React",
-      description:"This is a code-along project, which uses React,HTML and CSS.",
+      {image:Portfolio,
+      title:"PORTFOLIO (REACT)",
+      description:"This is a Portfolio Project.  Tech-Stack used: React,CSS,Material-ui,Bootstrap.",
       links:[
       {link: 'https://www.google.com'}
       ]

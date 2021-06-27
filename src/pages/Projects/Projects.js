@@ -23,7 +23,7 @@ const Projects = () => {
             <Grid container spacing={2}>
                 {resumeData.projects.map(
                     (project) =>(
-                <Grid item>
+                <Grid item lg={4}> 
                     <Card className="customCard">
                         <CardActionArea>
                             <CardMedia/>

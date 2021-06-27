@@ -8,7 +8,8 @@
 }
 
 .customCard .customCard_image{
-    height: 140px;
+    height: 110px;
+    margin-bottom: 20px;
 }
 
 .customCard .customCard_title{
